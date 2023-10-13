@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "index";
+}
+<p>Not found</p>
+
+<div>
+    <a asp-action="Index">Index</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

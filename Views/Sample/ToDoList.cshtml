@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Welcome Page";
+}
+ 
+<h2> Welcome </h2>
+
+<p> Hello , this is a test for Welcome page </p>
+
+<form asp-action="ToDoList" method="get">
+    <label for="id"> Enter id: </label>
+    <input type="text" id="id" name="id" placeholder="Your id">
+    <label for="title"> Enter title: </label>
+    <input type="text" id="title" name="title" placeholder="Any title">
+    <label for="description"> Enter description: </label>
+    <input type="text" id="description" name="description" placeholder="Any description">
+    <button type="submit">Submit</button>
+</form>
+<ul>
+<li>
+    <p>
+    @ViewData["id"]
+    </p>
+    <p>
+    @ViewData["todotitle"]
+    </p>
+    <p>
+    @ViewData["description"]
+    </p>
+</li>
+</ul>

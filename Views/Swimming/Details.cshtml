@@ -1,0 +1,54 @@
+@model swimming.Models.Swimming
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Swimming</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PoolName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PoolName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PoolLength)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PoolLength)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PoolLocation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PoolLocation)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PoolCapacity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PoolCapacity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PoolTimings)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PoolTimings)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PoolDays)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PoolDays)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
