@@ -9,4 +9,6 @@ public class Swimming{
     public string PoolCapacity{get; set; }
     public string PoolTimings{get; set; }
     public string PoolDays{get; set; }
+    public decimal PoolSize{get; set; }
+    public string PoolReviews{get; set; }
 }

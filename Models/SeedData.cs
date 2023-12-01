@@ -27,7 +27,9 @@ namespace swimming.Models
                         PoolLocation = "Windsor",
                         PoolCapacity= "50 People",
                         PoolTimings="7AM - 11PM",
-                        PoolDays=" Monday To Friday"
+                        PoolDays=" Monday To Friday",
+                        PoolSize= 5.0M,
+                        PoolReviews=" Excellent"
                     },
                     new Swimming
                     {
@@ -36,7 +38,9 @@ namespace swimming.Models
                         PoolLocation = "Windsor",
                         PoolCapacity= "50 People",
                         PoolTimings="7AM - 11PM",
-                        PoolDays=" Monday To Friday"
+                        PoolDays=" Monday To Friday",
+                        PoolSize= 5.0M,
+                        PoolReviews=" Well Maintained"
                     },
                     new Swimming
                     {
@@ -45,7 +49,9 @@ namespace swimming.Models
                         PoolLocation = "Windsor",
                         PoolCapacity= "50 People",
                         PoolTimings="7AM - 11PM",
-                        PoolDays=" Monday To Friday"
+                        PoolDays=" Monday To Friday",
+                        PoolSize= 5.0M,
+                        PoolReviews=" Best"
                     },
                     new Swimming
                     {
@@ -54,7 +60,9 @@ namespace swimming.Models
                         PoolLocation = "Windsor",
                         PoolCapacity= "50 People",
                         PoolTimings="7AM - 11PM",
-                        PoolDays=" Monday To Friday"
+                        PoolDays=" Monday To Friday",
+                        PoolSize= 5.0M,
+                        PoolReviews=" Perfect"
                     }
 
                     
