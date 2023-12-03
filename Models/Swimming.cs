@@ -10,5 +10,7 @@ public class Swimming{
     public string PoolTimings{get; set; }
     public string PoolDays{get; set; }
     public decimal PoolSize{get; set; }
-    public string PoolReviews{get; set; }
+
+    [DataType(DataType.Date)]
+    public DateTime EntryDeadline{get; set; }
 }

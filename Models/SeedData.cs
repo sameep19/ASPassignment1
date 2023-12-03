@@ -29,7 +29,7 @@ namespace swimming.Models
                         PoolTimings="7AM - 11PM",
                         PoolDays=" Monday To Friday",
                         PoolSize= 5.0M,
-                        PoolReviews=" Excellent"
+                        EntryDeadline=DateTime.Parse("2024-03-01")
                     },
                     new Swimming
                     {
@@ -40,7 +40,7 @@ namespace swimming.Models
                         PoolTimings="7AM - 11PM",
                         PoolDays=" Monday To Friday",
                         PoolSize= 5.0M,
-                        PoolReviews=" Well Maintained"
+                        EntryDeadline=DateTime.Parse("2024-02-14")
                     },
                     new Swimming
                     {
@@ -51,7 +51,7 @@ namespace swimming.Models
                         PoolTimings="7AM - 11PM",
                         PoolDays=" Monday To Friday",
                         PoolSize= 5.0M,
-                        PoolReviews=" Best"
+                        EntryDeadline=DateTime.Parse("2024-10-01")
                     },
                     new Swimming
                     {
@@ -62,7 +62,7 @@ namespace swimming.Models
                         PoolTimings="7AM - 11PM",
                         PoolDays=" Monday To Friday",
                         PoolSize= 5.0M,
-                        PoolReviews=" Perfect"
+                        EntryDeadline=DateTime.Parse("2023-12-25")
                     }
 
                     

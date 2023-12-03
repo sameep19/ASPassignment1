@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\W0822247\\Downloads\\ASPassignment1-main\\ASPassignment1-main\\swimming.csproj": {}
+    "/Users/buildadream/Documents/GitHub/ASPassignment1/swimming.csproj": {}
   },
   "projects": {
-    "C:\\Users\\W0822247\\Downloads\\ASPassignment1-main\\ASPassignment1-main\\swimming.csproj": {
+    "/Users/buildadream/Documents/GitHub/ASPassignment1/swimming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\W0822247\\Downloads\\ASPassignment1-main\\ASPassignment1-main\\swimming.csproj",
+        "projectUniqueName": "/Users/buildadream/Documents/GitHub/ASPassignment1/swimming.csproj",
         "projectName": "swimming",
-        "projectPath": "C:\\Users\\W0822247\\Downloads\\ASPassignment1-main\\ASPassignment1-main\\swimming.csproj",
-        "packagesPath": "C:\\Users\\W0822247\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\W0822247\\Downloads\\ASPassignment1-main\\ASPassignment1-main\\obj\\",
+        "projectPath": "/Users/buildadream/Documents/GitHub/ASPassignment1/swimming.csproj",
+        "packagesPath": "/Users/buildadream/.nuget/packages/",
+        "outputPath": "/Users/buildadream/Documents/GitHub/ASPassignment1/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\W0822247\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/buildadream/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.417/RuntimeIdentifierGraph.json"
         }
       }
     }

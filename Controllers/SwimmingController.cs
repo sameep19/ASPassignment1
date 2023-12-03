@@ -53,7 +53,7 @@ namespace swimming.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,PoolName,PoolLength,PoolLocation,PoolCapacity,PoolTimings,PoolDays,PoolSize,PoolReviews")] Swimming swimming)
+        public async Task<IActionResult> Create([Bind("Id,PoolName,PoolLength,PoolLocation,PoolCapacity,PoolTimings,PoolDays,PoolSize,EntryDeadline")] Swimming swimming)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace swimming.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,PoolName,PoolLength,PoolLocation,PoolCapacity,PoolTimings,PoolDays,PoolSize,PoolReviews")] Swimming swimming)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,PoolName,PoolLength,PoolLocation,PoolCapacity,PoolTimings,PoolDays,PoolSize,EntryDeadline")] Swimming swimming)
         {
             if (id != swimming.Id)
             {

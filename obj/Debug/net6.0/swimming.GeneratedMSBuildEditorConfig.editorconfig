@@ -8,69 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = swimming
 build_property.RootNamespace = swimming
-build_property.ProjectDir = c:\Users\W0822247\Downloads\ASPassignment1-main\ASPassignment1-main\
+build_property.ProjectDir = /Users/buildadream/Documents/GitHub/ASPassignment1/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\W0822247\Downloads\ASPassignment1-main\ASPassignment1-main
+build_property.MSBuildProjectDirectory = /Users/buildadream/Documents/GitHub/ASPassignment1
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Sample/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlXEluZGV4LmNzaHRtbA==
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Sample/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FtcGxlL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Sample/ToDoList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlXFRvRG9MaXN0LmNzaHRtbA==
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Sample/ToDoList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FtcGxlL1RvRG9MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Swimming/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcQ3JlYXRlLmNzaHRtbA==
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Swimming/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3dpbW1pbmcvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Swimming/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcRGVsZXRlLmNzaHRtbA==
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Swimming/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3dpbW1pbmcvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Swimming/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcRGV0YWlscy5jc2h0bWw=
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Swimming/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3dpbW1pbmcvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Swimming/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcRWRpdC5jc2h0bWw=
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Swimming/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3dpbW1pbmcvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Swimming/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcSW5kZXguY3NodG1s
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Swimming/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3dpbW1pbmcvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Swimming/NotFound.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcTm90Rm91bmQuY3NodG1s
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Swimming/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3dpbW1pbmcvTm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/W0822247/Downloads/ASPassignment1-main/ASPassignment1-main/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-jsbeh0bjbi
+[/Users/buildadream/Documents/GitHub/ASPassignment1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zdg256bapz
