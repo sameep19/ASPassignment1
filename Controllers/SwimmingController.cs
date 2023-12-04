@@ -30,14 +30,13 @@ namespace swimming.Controllers
             var swimmingPoolName = new SwimmingPoolNameViewModel
             {
                 PoolName = new SelectList(await poolnameQuery.Distinct().ToListAsync()),
-                Swimming = await _context.Swimming.ToListAsync()
+                Swimming = await swimming.ToListAsync()
             };
 
             return View(swimmingPoolName);
         }
 
         [HttpPost]
-       [ValidateAntiForgeryToken]
        public async Task<IActionResult> Hide(int[] selectedSwimming)
        {
            IQueryable<string> typeQuery = from m in _context.Swimming
@@ -60,7 +59,22 @@ namespace swimming.Controllers
            };
            return View("Index", swimmingPoolName);
        }
+       public async Task<IActionResult> Hide()
+       {
+           IQueryable<string> typeQuery = from m in _context.Swimming
+                                           select m.PoolName;
+           var swimming = from m in _context.Swimming
+                       select m;
+           
+            swimming = swimming.Where(x => x.Selected == true);
 
+           var swimmingPoolName = new SwimmingPoolNameViewModel
+           {
+               PoolName = new SelectList(await typeQuery.Distinct().ToListAsync()),
+               Swimming = await swimming.ToListAsync()
+           };
+           return View(swimmingPoolName);
+       }
         public async Task<IActionResult> Search(string swimmingPoolName, DateTime entryDeadline, string searchParamString, decimal poolSizeSearchNumber)
         {
             // Use LINQ to get list of genres.
