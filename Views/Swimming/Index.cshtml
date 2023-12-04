@@ -1,4 +1,4 @@
-@model IEnumerable<swimming.Models.Swimming>
+@model swimming.Models.SwimmingPoolNameViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -9,38 +9,53 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<form asp-controller="Swimming" asp-action="Search" method="get">
+    <p>
+        PoolName
+        <select asp-for="SwimmingPoolName" asp-items="Model.PoolName">
+            <option value="">All</option>
+        </select>
+
+        Entry Deadline: <input type="date" asp-for="EntryDeadline" />
+
+        Pool Location: <input type="search" asp-for="SearchParamString" />
+
+        Pool Size: <input type="search" asp-for="PoolSizeSearchNumber" />
+        <input type="submit" value="Submit" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.PoolName)
+                @Html.DisplayNameFor(model => model.Swimming[0].PoolName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PoolLength)
+                @Html.DisplayNameFor(model => model.Swimming[0].PoolLength)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PoolLocation)
+                @Html.DisplayNameFor(model => model.Swimming[0].PoolLocation)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PoolCapacity)
+                @Html.DisplayNameFor(model => model.Swimming[0].PoolCapacity)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PoolTimings)
+                @Html.DisplayNameFor(model => model.Swimming[0].PoolTimings)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PoolDays)
+                @Html.DisplayNameFor(model => model.Swimming[0].PoolDays)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PoolSize)
+                @Html.DisplayNameFor(model => model.Swimming[0].PoolSize)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.EntryDeadline)
+                @Html.DisplayNameFor(model => model.Swimming[0].EntryDeadline)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.Swimming) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.PoolName)

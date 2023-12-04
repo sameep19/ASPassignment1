@@ -21,7 +21,49 @@ namespace swimming.Controllers
         // GET: Swimming
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Swimming.ToListAsync());
+            IQueryable<string> poolnameQuery = from m in _context.Swimming
+                                            orderby m.PoolName
+                                            select m.PoolName;
+            var swimmingPoolName = new SwimmingPoolNameViewModel
+            {
+                PoolName = new SelectList(await poolnameQuery.Distinct().ToListAsync()),
+                Swimming = await _context.Swimming.ToListAsync()
+            };
+
+            return View(swimmingPoolName);
+        }
+
+        public async Task<IActionResult> Search(string swimmingPoolName, DateTime entryDeadline, string searchParamString, decimal poolSizeSearchNumber)
+        {
+            // Use LINQ to get list of genres.
+            IQueryable<string> poolnameQuery = from m in _context.Swimming
+                                            select m.PoolName;
+            var swimming = from m in _context.Swimming
+                        select m;
+            if (!string.IsNullOrEmpty(swimmingPoolName))
+            {
+                swimming = swimming.Where(x => x.PoolName == swimmingPoolName);
+            }
+            if (entryDeadline != DateTime.MinValue)
+            {
+                swimming = swimming.Where(x => x.EntryDeadline == entryDeadline);
+            }
+            if (!string.IsNullOrEmpty(searchParamString))
+            {
+                swimming = swimming.Where(x => x.PoolLocation == searchParamString);
+            }
+            if (poolSizeSearchNumber > 0)
+            {
+                swimming = swimming.Where(x => x.PoolSize == poolSizeSearchNumber);
+            }
+
+            var swimmingPoolName1 = new SwimmingPoolNameViewModel
+            {
+                PoolName = new SelectList(await poolnameQuery.Distinct().ToListAsync()),
+                Swimming = await swimming.ToListAsync()
+            };
+
+            return View("index",swimmingPoolName1);
         }
 
         // GET: Swimming/Details/5
