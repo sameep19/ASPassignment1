@@ -33,35 +33,35 @@ namespace swimming.Models
                     },
                     new Swimming
                     {
-                        PoolName = "SCC Shortcourse Pool",
-                        PoolLength = "25 Meters",
-                        PoolLocation = "Windsor",
-                        PoolCapacity= "50 People",
+                        PoolName = "Chad Le Clos Longcourse Pool",
+                        PoolLength = "50 Meters",
+                        PoolLocation = "USA",
+                        PoolCapacity= "60 People",
                         PoolTimings="7AM - 11PM",
-                        PoolDays=" Monday To Friday",
-                        PoolSize= 5.0M,
+                        PoolDays=" Monday To Sunday",
+                        PoolSize= 7.0M,
                         EntryDeadline=DateTime.Parse("2024-02-14")
                     },
                     new Swimming
                     {
-                        PoolName = "SCC Shortcourse Pool",
-                        PoolLength = "25 Meters",
-                        PoolLocation = "Windsor",
+                        PoolName = "MP Olympic Pool",
+                        PoolLength = "50 Meters",
+                        PoolLocation = "Brazil",
                         PoolCapacity= "50 People",
                         PoolTimings="7AM - 11PM",
-                        PoolDays=" Monday To Friday",
-                        PoolSize= 5.0M,
+                        PoolDays=" Monday To Saturday",
+                        PoolSize= 6.0M,
                         EntryDeadline=DateTime.Parse("2024-10-01")
                     },
                     new Swimming
                     {
-                        PoolName = "SCC Shortcourse Pool",
-                        PoolLength = "25 Meters",
-                        PoolLocation = "Windsor",
-                        PoolCapacity= "50 People",
+                        PoolName = "Community Pool",
+                        PoolLength = "35 Meters",
+                        PoolLocation = "Illinois",
+                        PoolCapacity= "100 People",
                         PoolTimings="7AM - 11PM",
-                        PoolDays=" Monday To Friday",
-                        PoolSize= 5.0M,
+                        PoolDays=" All Days",
+                        PoolSize= 9.0M,
                         EntryDeadline=DateTime.Parse("2023-12-25")
                     }
 

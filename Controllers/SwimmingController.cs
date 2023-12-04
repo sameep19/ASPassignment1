@@ -254,6 +254,28 @@ namespace swimming.Controllers
                 Swimming = await swimming.ToListAsync()
             };
 
+            
+
+            return View("Index",swimmingPoolName);
+        }
+
+        public async Task<IActionResult> DeleteAlll()
+        {
+            IQueryable<string> poolnameQuery = from m in _context.Swimming
+                                            orderby m.PoolName
+                                            select m.PoolName;
+            var swimming =_context.Swimming.ToList();
+            _context.Swimming.RemoveRange(swimming);
+
+            await _context.SaveChangesAsync();
+            var swimmingPoolName = new SwimmingPoolNameViewModel
+            {
+                PoolName = new SelectList(await poolnameQuery.Distinct().ToListAsync()),
+                Swimming = await _context.Swimming.ToListAsync()
+            };
+
+            
+
             return View("Index",swimmingPoolName);
         }
     }
