@@ -22,7 +22,8 @@ namespace swimming.Migrations
                     PoolTimings = table.Column<string>(type: "TEXT", nullable: false),
                     PoolDays = table.Column<string>(type: "TEXT", nullable: false),
                     PoolSize = table.Column<decimal>(type: "TEXT", nullable: false),
-                    EntryDeadline = table.Column<DateTime>(type: "TEXT", nullable: false)
+                    EntryDeadline = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    Selected = table.Column<bool>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

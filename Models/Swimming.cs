@@ -13,4 +13,6 @@ public class Swimming{
 
     [DataType(DataType.Date)]
     public DateTime EntryDeadline{get; set; }
+
+    public bool Selected{get; set; } = false;
 }

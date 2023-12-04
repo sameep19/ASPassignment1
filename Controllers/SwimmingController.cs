@@ -24,6 +24,9 @@ namespace swimming.Controllers
             IQueryable<string> poolnameQuery = from m in _context.Swimming
                                             orderby m.PoolName
                                             select m.PoolName;
+            var swimming = from m in _context.Swimming
+                        select m;
+                        swimming = swimming.Where(x => x.Selected == false);
             var swimmingPoolName = new SwimmingPoolNameViewModel
             {
                 PoolName = new SelectList(await poolnameQuery.Distinct().ToListAsync()),
@@ -32,6 +35,31 @@ namespace swimming.Controllers
 
             return View(swimmingPoolName);
         }
+
+        [HttpPost]
+       [ValidateAntiForgeryToken]
+       public async Task<IActionResult> Hide(int[] selectedSwimming)
+       {
+           IQueryable<string> typeQuery = from m in _context.Swimming
+                                           select m.PoolName;
+           var swimming = from m in _context.Swimming
+                       select m;
+           
+            foreach (var poolName in selectedSwimming)
+            {
+                var swimming1 = await _context.Swimming.FindAsync(poolName);
+                swimming1.Selected = true;
+                await _context.SaveChangesAsync();
+            }
+            swimming = swimming.Where(x => x.Selected == false);
+
+           var swimmingPoolName = new SwimmingPoolNameViewModel
+           {
+               PoolName = new SelectList(await typeQuery.Distinct().ToListAsync()),
+               Swimming = await swimming.ToListAsync()
+           };
+           return View("Index", swimmingPoolName);
+       }
 
         public async Task<IActionResult> Search(string swimmingPoolName, DateTime entryDeadline, string searchParamString, decimal poolSizeSearchNumber)
         {
@@ -56,7 +84,7 @@ namespace swimming.Controllers
             {
                 swimming = swimming.Where(x => x.PoolSize == poolSizeSearchNumber);
             }
-
+            swimming = swimming.Where(x => x.Selected == false);
             var swimmingPoolName1 = new SwimmingPoolNameViewModel
             {
                 PoolName = new SelectList(await poolnameQuery.Distinct().ToListAsync()),

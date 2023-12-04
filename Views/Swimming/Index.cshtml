@@ -24,9 +24,13 @@
         <input type="submit" value="Submit" />
     </p>
 </form>
+<form asp-action="Hide">
 <table class="table">
     <thead>
         <tr>
+            <th>
+                Select
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Swimming[0].PoolName)
             </th>
@@ -57,6 +61,9 @@
     <tbody>
 @foreach (var item in Model.Swimming) {
         <tr>
+            <td>
+                <input type="checkbox" value="@item.Id" name="selectedSwimming">
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PoolName)
             </td>
@@ -90,3 +97,6 @@
 }
     </tbody>
 </table>
+<input type="submit" value="Hide Selected" class="btn" />
+
+</form>

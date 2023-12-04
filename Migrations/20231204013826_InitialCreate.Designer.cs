@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace swimming.Migrations
 {
     [DbContext(typeof(MVCSwimmingContext))]
-    [Migration("20231203213545_InitialCreate")]
+    [Migration("20231204013826_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,6 +53,9 @@ namespace swimming.Migrations
                     b.Property<string>("PoolTimings")
                         .IsRequired()
                         .HasColumnType("TEXT");
+
+                    b.Property<bool>("Selected")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
