@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Build.Tasks;
 using Microsoft.EntityFrameworkCore;
 using swimming.Models;
 
@@ -232,5 +233,29 @@ namespace swimming.Controllers
         {
             return _context.Swimming.Any(e => e.Id == id);
         }
+
+        public async Task<IActionResult> DeleteAll()
+        {
+            IQueryable<string> poolnameQuery = from m in _context.Swimming
+                                            orderby m.PoolName
+                                            select m.PoolName;
+            var swimming = from m in _context.Swimming
+                        select m;
+                        swimming = swimming.Where(x => x.Selected == true);
+                        foreach(var swimmingItem in swimming)
+                    {
+                        var records = await _context.Swimming.FindAsync(swimmingItem.Id);
+                        records.Selected = false;
+                        await _context.SaveChangesAsync();
+                    }
+            var swimmingPoolName = new SwimmingPoolNameViewModel
+            {
+                PoolName = new SelectList(await poolnameQuery.Distinct().ToListAsync()),
+                Swimming = await swimming.ToListAsync()
+            };
+
+            return View("Index",swimmingPoolName);
+        }
     }
+
 }

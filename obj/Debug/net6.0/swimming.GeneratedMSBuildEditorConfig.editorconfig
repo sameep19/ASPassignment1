@@ -8,73 +8,73 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = swimming
 build_property.RootNamespace = swimming
-build_property.ProjectDir = C:\Users\W0822247\Documents\GitHub\ASPassignment1\
+build_property.ProjectDir = c:\Users\W0822247\Documents\GitHub\ASPassignment1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\W0822247\Documents\GitHub\ASPassignment1
+build_property.MSBuildProjectDirectory = c:\Users\W0822247\Documents\GitHub\ASPassignment1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Home/Index.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Home/Privacy.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Sample/Index.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Sample/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Sample/ToDoList.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Sample/ToDoList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlXFRvRG9MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Shared/Error.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Create.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Delete.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Details.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Edit.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Hide.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Hide.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcSGlkZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Index.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/NotFound.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Swimming/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3dpbW1pbmdcTm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/_ViewImports.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/_ViewStart.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Shared/_Layout.cshtml]
+[c:/Users/W0822247/Documents/GitHub/ASPassignment1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jsbeh0bjbi
